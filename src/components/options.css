@@ -1,0 +1,129 @@
+.imgvistapraia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/vista.png');
+    background-size: cover;
+    height: 720px;
+    
+     
+}
+.sobrenos{
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.imgvistapraia div h1 {
+    font-size: 4em;
+}
+  
+.imgvistapraia div h4 {
+    
+    font-size: 20px;
+}
+  
+.imgvistapraia div * {
+    margin: 0;
+}
+
+.maissobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    width: auto;
+    gap: 18px;
+}
+
+.sobrenos h1 h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cidadania{
+    background-color: #759F2D;
+    width: 310px;
+    height: 500px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.construção{
+    background-color: #28A4E2;
+    width: 310px;
+    height: 500px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+.regularização{
+    background-color: #EA9B3A;
+    width: 310px;
+    height: 500px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.curso{
+    background-color: #759F2D;
+    width: 310px;
+    height: 500px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cidadania h5{
+    font-size: 24px;
+}
+
+.construção h5{
+    font-size: 24px;
+}
+
+.regularização h5{
+    font-size: 24px;
+}
+
+.curso h5{
+    font-size: 24px;
+}
+
+.cidadania p{
+    width: 250px;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.construção p{
+    width: 250px;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.regularização p{
+    width: 250px;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.curso p{
+    width: 250px;
+    text-align: justify;
+    margin: 10px auto;
+}
