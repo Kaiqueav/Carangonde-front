@@ -1,0 +1,19 @@
+footer{
+background-color:  #28a4e295;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+footer .dive img{
+    margin-left: 20%;
+}
+footer .div-img img{
+    display: inline-block;
+    margin-top: 10%;
+    padding: 10px;
+    width: 28px;
+}
+
+.div-img{
+    margin-right: 2%;
+}
