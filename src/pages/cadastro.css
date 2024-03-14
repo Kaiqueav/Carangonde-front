@@ -1,0 +1,119 @@
+
+.bg{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #FCDA75, #87CEEB);
+    height: 792px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #FCDA75, #87CEEB);
+    height: 792px;
+}
+.novo_log{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        color: rgb(0, 0, 0);
+        font-size: 12pt;
+        font-family: 'Gabarito', sans-serif;
+        margin: 10px;
+        text-transform: uppercase;
+        background:transparent ;
+        border: 2px solid rgb(255, 255, 255);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+        width: 500px;
+        height: 400px;
+    
+    
+}
+
+.novo_log .esq{
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.novo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    font-family: 'Gabarito', sans-serif;
+    margin: 10px;
+    text-transform: uppercase;
+    background:rgba(255, 255, 255, 0.426) ;
+    border: 2px solid rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    width: 500px;
+    height: 600px;
+}
+
+.novo input,
+.novo_log input,
+.novo_log select,
+.novo select{
+    width: 290px;
+    height: 29px;
+    border: none;
+    margin: auto;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: rgb(229, 238, 238);
+}
+
+.novo button,
+.novo_log button{
+    width: 220px;
+    height: 29px;
+    border: none;
+    margin: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color:rgb(229, 238, 238);
+}
+
+.novo button:hover,
+.novo_log button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border:  2px solid black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255, 255, 255, 0.426) ;
+}
+
+button{
+    transition: all 0.5s ease-in;
+}
+
+.novo input:focus,
+.novo_log input:focus{
+    outline: none;
+}
+
+.novo button,
+.novo_log button{
+    width: 220px;
+    height: 29px;
+    border: none;
+    margin: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color:rgb(229, 238, 238);
+}
